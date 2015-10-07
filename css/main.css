@@ -1,0 +1,361 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul,
+menu {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end reset */
+@font-face {
+	font-family: 'MyriadPro-Regular';
+	src: url('../fonts/MyriadPro-Regular.otf');
+}
+@font-face {
+	font-family: 'MyriadPro-Light';
+	src: url('../fonts/MyriadPro-Light.otf');
+}
+@font-face {
+	font-family: 'MyriadPro-Bold';
+	src: url('../fonts/MyriadPro-Bold.otf');
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+header,
+.banner,
+h1,
+footer {
+	font-family: 'MyriadPro-Regular', Arial, Helvetica, sans-serif;
+}
+.wrapper-main,
+header,
+nav,
+footer {
+	width: 1170px;
+	margin: 0 auto;
+}
+.wrapper-main {
+	height: 1278px;
+	background: url(../img/wrapper-bg.png);
+	position: relative;
+}
+header {
+	height: 194px;
+}
+nav {
+	height: 60px;
+	background: url(../img/nav-bg.png);
+}
+menu,
+.wrapper-footer,
+.container {
+	width: 940px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.container {
+	width: 940px;
+	margin: 0 auto;
+	position: relative;
+}
+menu li {
+	width: 187px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	border-right: 1px dotted #bdbdbd;
+	text-transform: uppercase;
+	padding: 24px 0 20px 0;
+	font-size: 16px;
+	color: #3e3e3e;
+}
+#contacts {
+	border-right: 0;
+}
+menu li:hover {
+	color: #0099cc;
+}
+footer {
+	height: 121px;
+	background: url(../img/footer-bg.png);
+	position: absolute;
+	bottom: 0;
+}
+#phone-footer, #email-footer {
+	float: left;
+	padding: 40px 0 33px 0px;
+}
+#email-footer {
+	margin-left: 50px;
+}
+.time {
+	font-size: 16px;
+	color: #454545;
+	display: block;
+}
+.phone, .email {
+	font-size: 32px;
+	color: #008cc4;
+	display: block;
+}
+.wrapper-brand {
+	float: left;
+	text-transform: uppercase;
+	padding: 30px 0 29px 0;
+}
+#brand-name {
+	padding-right: 10px;
+}
+#brand-description {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+#brand-name,
+#brand-description {
+	display: inline-block;
+}
+#brand-name span,
+#brand-description span {
+	display: block;
+}
+#brand-description {
+	border-left: 1px solid #cfcfcf;
+}
+#first-name {
+	font-size: 34pt;
+	color: #3e3e3e;
+}
+#last-name {
+	font-size: 21pt;
+	color: #8d8d8d;
+	float: right;
+}
+#first-description {
+	color: #8d8d8d;
+	font-size: 14pt;
+}
+#last-description {
+	color: #008cc4;
+	font-size: 14pt;
+}
+.banner {
+	height: 299px;
+	width: 691px;
+	background: url(../img/banner-bg.jpg);
+}
+.banner-text {
+	color: #ffffff;
+	padding-top: 83px;
+	padding-left: 40px;
+	text-shadow: #008fcf -1px 2px 1px;
+}
+.first-string,
+.middle-string {
+	font-size: 21pt;
+	display: block;
+	padding-top: 5px;
+}
+.middle-string,
+.last-string {
+	font-family: 'MyriadPro-Light', Arial, Helvetica, sans-serif;
+}
+.last-string {
+	font-size: 17pt;
+	display: block;
+	padding-top: 10px;
+}
+.container a {
+	text-decoration: none;
+}
+.wrapper {
+	width: 940px;
+	margin: 0 auto;
+	overflow: hidden;
+	font-family: 
+}
+aside {
+	width: 219px;
+	float: left;
+	margin-right: 30px;
+	padding: 5px 0 0 0;
+}
+#content {
+	float: right;
+}
+#content .inside {
+	padding: 22px 20px 0 29px;
+}
+.inside {
+	width: 642px;
+}
+.inside h1 {
+	font-size: 17pt;
+	text-transform: uppercase;
+	color: #3e3e3e;
+	margin-bottom: 20px;
+}
+.inside h1 span {
+	color: #8d8d8d;
+}
+.list {
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+.list li {
+	float: left;
+	width: 175px;
+	margin-right: 53px;
+}
+.list li.last {
+	margin: 0;
+}
+.list li span {
+	display: block;
+	text-align: center;
+}
+.list li h4 {
+	padding-top: 20px;
+	font-size: 16pt;
+	color: #008cc4;
+}
+.list li p, .inside-text {
+	margin: 0;
+	font-size: 12pt;
+	color: #454545;
+	padding-top: 15px;
+	line-height: 145%;
+}
+.inside-text {
+	text-align: justify;
+}
+.inside-text p {
+	text-indent: 1.5em;
+}
+.text-strong {
+	font-weight: bold;
+}
+.inside-price {
+	background: url(../img/price.jpg);
+	width: 589px;
+	height: 480px;
+}
